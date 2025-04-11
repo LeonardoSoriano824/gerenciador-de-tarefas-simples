@@ -1,5 +1,3 @@
-
-
 def adicionar_tarefa(tarefas):
     nova_tarefa = str(input("Digite a nova tarefa: "))
     tarefas.append(nova_tarefa)
