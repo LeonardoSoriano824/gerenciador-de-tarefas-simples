@@ -10,7 +10,8 @@ def main():
         opcao = str(input('''[1] Adicionar tarefa
 [2] Listar Tarefas
 [3] Marcar tarefa como concluída
-[4] Sair
+[4] Deletar Tarefa
+[5] Sair
 Selecione uma opção: '''))
         
         match opcao:
@@ -24,6 +25,9 @@ Selecione uma opção: '''))
                 concluir_tarefa(tarefas)
             
             case "4":
+                deletar_tarefa(tarefas)
+            
+            case "5":
                 sys.exit("Encerrando aplicação...")
             
             case _:
