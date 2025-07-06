@@ -3,15 +3,16 @@ from funcoes import *
 tarefas = []
 
 def main():
-    print("GERENCIADOR DE TAREFAS")
+    print("----------GERENCIADOR DE TAREFAS----------")
     
-    #Inicia o loop principal e pede o input do usuario.
     while True:
-        opcao = str(input('''[1] Adicionar tarefa
-[2] Listar Tarefas
-[3] Marcar tarefa como concluída
-[4] Deletar Tarefa
-[5] Sair
+        opcao = str(input('''
+    [1] Adicionar tarefa
+    [2] Listar Tarefas
+    [3] Marcar tarefa como concluída
+    [4] Deletar Tarefa
+    [5] Sair
+    
 Selecione uma opção: '''))
         
         match opcao:
